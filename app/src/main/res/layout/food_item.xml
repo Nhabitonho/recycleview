@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/anh5"
+            android:id="@+id/hinh1"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/icon_status"
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="10sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Ten Quan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/address"
+        android:padding="10sp"
+        android:textColor="#80000000"
+        android:maxLines="1"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:text="Dia Chi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2D000000" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_pricetag"
+            android:id="@+id/icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+        <TextView
+            android:id="@+id/discount"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Ma Giam Gia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/more"
+        android:padding="10sp"
+        android:textColor="#80000000"
+        android:maxLines="1"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:text="Xem them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
